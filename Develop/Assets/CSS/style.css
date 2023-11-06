@@ -1,0 +1,91 @@
+/* Define the default font family and size for the entire page */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+/* Styling for the text areas (used within time blocks) */
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+/* Styling for the header, including centering its content */
+header {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+}
+
+/* Adjust line breaks for the description text */
+.description {
+  white-space: pre-wrap;
+}
+
+/* Common styling for time blocks with rounded corners */
+.time-block {
+  border-radius: 15px;
+}
+
+/* Styling for rows, adding a white top border to separate them */
+.row {
+  border-top: 1px solid white;
+}
+
+/* Styling for the hour section in time blocks*/
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+/* Styling for time blocks in the past, with a gray background */
+.past {
+  background-color: #d3d3d375;
+  color: white;
+}
+
+/* Styling for time blocks in the present, with a red background */
+.present {
+  background-color: #ff6961;
+  color: white;
+}
+
+/* Styling for time blocks in the future, with a green background */
+.future {
+  background-color: #419441;
+  color: white;
+}
+
+/* Styling for the current hour within time blocks, with a yellow background */
+.current-hour {
+  background-color: #ffd000;
+  color: black;
+}
+
+/* Styling for the current time block*/
+.current {
+  background-color: #e41515;
+  /* styles for the "current" class here */
+  color: white;
+}
+
+/* Styling for the save button within time blocks */
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06aed5;
+  color: white;
+}
+
+/* Hover effect for the save button icon */
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
