@@ -1,49 +1,63 @@
-# TimeBlockManagerEST
-The TimeBlockManagerEST is a JavaScript-based application that dynamically assigns past, present, or future classes to time blocks based on the current time, allowing users to schedule and save events for different hours of the day.
+# Work Day Scheduler
 
-![Work Day Scheduler Screenshot](./Develop/Assets/Images/Work%20day%20Scheduler.jpg)
+![Work Day Scheduler Screenshot](./Assets/Images/Work%20day%20Scheduler.jpg)
 
 ## Table of Contents
 
+- [Description](#description)
 - [Features](#features)
 - [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
 - [Usage](#usage)
+  - [Adding and Saving Events](#adding-and-saving-events)
 - [Local Storage](#local-storage)
 - [Contributing](#contributing)
+- [License](#license)
+
+## Description
+
+The Work Day Scheduler is a simple calendar application designed to help you schedule your workday effectively. It provides a visual representation of hours throughout the day, allowing you to add and save events for specific time blocks. The application also highlights the current hour and differentiates past, present, and future time blocks.
 
 ## Features
 
-- **Dynamic Time Block Classification:** TimeBlockManager dynamically assigns past, present, or future classes to each time block based on the current time, ensuring a clear visual representation of your schedule.
-
-- **Event Scheduling:** You can easily input and save event descriptions for each time block, helping you plan your day effectively.
-
-- **Local Storage:** Your scheduled events are stored in your browser's local storage, allowing you to access and edit them even after refreshing the page.
+- Display of current date and time.
+- Color-coded time blocks to indicate past, present, and future events.
+- Ability to add and save events for each time block.
+- Local storage to persist event information between visits.
 
 ## Getting Started
 
-To get started with TimeBlockManager, follow these steps:
+### Prerequisites
 
-1. Clone this repository to your local machine.
+To run this application, you need a web browser.
 
-git clone https://github.com/your-username/timeblock-manager.git
+### Installation
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/your-username/work-day-scheduler.git
+Open the index.html file in your web browser.
+
 
 ## Usage
-The current day and date are displayed at the top of the page.
-
-Each time block represents an hour of the day, starting from midnight (12 AM) to 11 PM. The time blocks are color-coded as follows:
-
-Past: Grey
-Present: Red
-Future: Green
-Current Hour: Blue
-Click on the time block for the desired hour and enter your event description in the text area.
-
-Click the "Save" button to save your event. The event will be stored in local storage.
-
-Even after refreshing the page or reopening the application, your saved events will be retained.
-
-## Local Storage
-TimeBlockManager uses your browser's local storage to save and retrieve event descriptions for each time block. This means your scheduled events are accessible even if you close the application and return later.
+Adding and Saving Events
+Scroll through the time blocks to find the desired hour.
+Click on the textarea in the time block for the hour you want to add an event.
+Type your event description.
+Click the "Save" button to save the event.
+Local Storage
+The Work Day Scheduler uses local storage to save and retrieve event descriptions. This means that your scheduled events will persist even if you close and reopen the application.
 
 ## Contributing
-Contributions are welcome! If you have any ideas for improving TimeBlockManager or encounter any issues, please feel free to open an issue or submit a pull request.
+Contributions to this project are welcome. If you have any ideas or improvements you'd like to add, please follow these steps:
+
+Fork the repository.
+Create a new branch for your feature: git checkout -b feature-name.
+Commit your changes: git commit -m 'Add some feature'.
+Push to the branch: git push origin feature-name.
+Submit a pull request.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
