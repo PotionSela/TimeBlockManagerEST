@@ -1,6 +1,6 @@
 # Work Day Scheduler
 
-![Work Day Scheduler Screenshot](./Assets/Images/Work%20day%20Scheduler.jpg)
+![Work Day Scheduler Screenshot](./Assets/Images/Work-day-Scheduler.jpg)
 
 ## Table of Contents
 
